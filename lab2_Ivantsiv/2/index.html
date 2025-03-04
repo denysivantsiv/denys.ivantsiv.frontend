@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Завдання 2</title>
+</head>
+<body>
+  <h1>Стилізація таблиць</h1>
+
+  <table class="table1">
+    <caption>Table 1</caption>
+    <td colspan="1">Data 1</td>
+    <td colspan="1">Data 2</td>
+    <td colspan="1">Data 3</td>
+    <tr>
+      <td colspan="1">Data 3</td>
+      <td colspan="1">Data 4</td>
+      <td colspan="1">Data 5</td>
+    </tr>
+  </table>
+
+
+  <table class="table2">
+    <caption>Table 2</caption>
+    <tr>
+      <td>Data 1</td>
+      <td>Data 2</td>
+      <td>Data 3</td>
+    </tr>
+    <tr>
+      <td>Data 4</td>
+      <td>Data 5</td>
+      <td>Data 6</td>
+    </tr>
+    <tr>
+      <td>Data 7</td>
+      <td>Data 8</td>
+      <td>Data 9</td>
+    </tr>
+  </table>
+
+
+  <table class="table3">
+    <caption>Table 3</caption>
+    <tr>
+      <td class="blue-border">Data 1</td>
+      <td class="orangered-border">Data 2</td>
+      <td class="orangered-border">Data 3</td>
+    </tr>
+    <tr>
+      <td class="orangered-border">Data 4</td>
+      <td class="orangered-border">Data 5</td>
+      <td class="green-borderb">Data 6</td>
+    </tr>
+
+
+    <table class="table4">
+      <caption>Table 4</caption>
+      <thead>
+      <tr>
+        <th>Data1</th>
+        <th>Data2</th>
+        <th>Data3</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr>
+        <td>Data4</td>
+        <td>Data5</td>
+        <td>Data6</td>
+      </tr>
+      </tbody>
+    </table>
+
+
+  <table class="table5" rules="rows" frame="vsides">
+    <caption>Table 5</caption>
+    <tbody>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>5</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>8</td>
+      <td>9</td>
+    </tr>
+    </tbody>
+  </table>
+
+
+  <table class="table6">
+    <caption>Table 6</caption>
+    <tr>
+      <th rowspan="2">Стать</th>
+      <th>Ріст</th>
+      <th>Вага</th>
+      <th rowspan="2">Вік</th>
+    </tr>
+    <tr>
+      <th colspan="2">Середнє значення</th>
+  
+  
+  
+    </tr>
+    <tr>
+      <td>Чоловіки</td>
+      <td>174</td>
+      <td>78</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Жінки</td>
+      <td>165</td>
+      <td>78</td>
+      <td>25</td>
+    </tr>
+  </table>
+    <br>
+
+
+  <table class="table7">
+    <caption> Table 7</caption>
+    <tr>
+      <td class="blue-cell borderBottom borderRight">Data</td>
+      <td colspan="2" class="borderBottom borderRight">Data </td>
+      <td class="borderLeft borderBottom">Data</td>
+    </tr>
+    <tr>
+      <td rowspan="2" class="borderBottom borderRight">Data </td>
+      <td rowspan="3" class="borderRight borderLeft borderTop">Data </td>
+      <td class="borderBottom borderLeft borderTop borderRight">Data</td>
+      <td class="borderTop borderLeft borderBottom">Data</td>
+    </tr>
+    <tr>
+      <td colspan="2" class="yellow-cell borderBottom borderTop borderLeft">Data</td>
+    </tr>
+    <tr>
+      <td class=" borderTop borderRight"></td>
+      <td class="borderRight borderLeft"></td>
+      <td class="pink-cell"></td>
+    </tr>
+  </table>
+    <br>
+
+
+  <table class="table8">
+    <caption> Table 8</caption>
+    <tr>
+      <td colspan="2">Data</td>
+      <td> Data</td>
+      <td colspan="2" >Data </td>
+    </tr>
+    <tr>
+    <td colspan="2" rowspan="3">
+      <table class="table8_1">
+      <tr>
+        <caption>Таблиця 8.1</caption>
+        <td>Data 1</td>
+        <td>Data 2</td>
+        <td>Data 3</td>
+      </tr>
+      <tr>
+        <td>Data 4</td>
+        <td>Data 5</td>
+        <td>Data 6</td>
+      </tr>
+    </table>
+    </td>
+    <td rowspan="3">Data</td>
+    <td colspan="2" rowspan="3">
+      <table class="table8_2">
+        <caption>Таблиця 8.2</caption>
+        <tr>
+          <td>Data 1</td>
+          <td>Data 2</td>
+          <td>Data 3</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  </table>
+</body>
+</html>
