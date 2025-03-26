@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>position</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.5;
+            height: 1500px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .absolute-demo {
+            position: relative;
+            height: 150px;
+            background: #f0f0f0;
+            margin: 30px 0;
+        }
+
+        .absolute-box {
+            position: absolute;
+            background: #e74c3c;
+            top: 20px;
+            left: 20px;
+        }
+
+        .fixed-box {
+            position: fixed;
+            background: #9b59b6;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .relative-box {
+            position: relative;
+            background: #2ecc71;
+            top: 20px;
+            left: 40px;
+        }
+
+        .static-box {
+            position: static;
+            background: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <h2>position: absolute</h2>
+    <p>Елемент позиціонується відносно найближчого позиціонованого предка. Якщо такого немає - відносно вікна браузера.</p>
+    <div class="absolute-demo">
+        <div class="box absolute-box">absolute</div>
+    </div>
+
+    <h2>position: fixed</h2>
+    <p>Елемент позиціонується відносно вікна браузера і не рухається при прокрутці.</p>
+    <div class="box fixed-box">fixed</div>
+
+    <h2>position: relative</h2>
+    <p>Елемент зміщується відносно свого звичайного положення.</p>
+    <div class="box relative-box">relative</div>
+
+    <h2>position: static</h2>
+    <p>Звичайне положення елемента у потоці (значення за замовчуванням).</p>
+    <div class="box static-box">static</div>
+</body>
+</html>
