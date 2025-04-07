@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    height: 100vh;
+}
+
+.header {
+    height: 15%;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+    .header input {
+        width: 30%;
+    }
+
+.block1 {
+    width: 60%;
+    text-align: right;
+}
+
+.middle {
+    height: 70%;
+    display: flex;
+}
+
+.block2, .block4 {
+    width: 20%;
+    background: dodgerblue;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.block3 {
+    width: 60%;
+    height: 100%;
+    background: white;
+    position: relative;
+    transform: rotate(-1deg);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.scroll {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.red-box {
+    height: 40px;
+    background: red;
+    flex-shrink: 0;
+}
+
+.footer {
+    height: 15%;
+    background: orange;
+}
+
+.block5 {
+    height: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
