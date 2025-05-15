@@ -1,0 +1,49 @@
+h1, h2 {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+}
+
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+.btn-primary {
+    background-color: #2c3e50;
+    border: none;
+}
+
+    .btn-primary:hover {
+        background-color: #1a242f;
+    }
+
+.navbar-brand {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: auto;
+    bottom: 50px;
+    transform: none;
+    opacity: 1;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+    border-radius: 50%;
+    padding: 10px;
+}
