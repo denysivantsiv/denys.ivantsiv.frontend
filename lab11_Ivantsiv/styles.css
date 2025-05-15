@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+input, select, textarea {
+    margin: 5px;
+}
+
+.pseudo-elements .before-after::before {
+    content: "Перед ";
+    color: red;
+}
+
+.pseudo-elements .before-after::after {
+    content: " Після";
+    color: blue;
+}
+
+.pseudo-elements .first-letter::first-letter {
+    font-size: 2em;
+    color: green;
+}
+
+.pseudo-elements .first-line::first-line {
+    font-weight: bold;
+    color: purple;
+}
+
+.link-pseudoclasses a:link {
+    color: blue;
+}
+
+.link-pseudoclasses a:visited {
+    color: purple;
+}
+
+.link-pseudoclasses a:hover {
+    color: red;
+}
+
+.link-pseudoclasses a:active {
+    color: green;
+}
+
+.other-pseudoclasses input:checked + label {
+    color: green;
+}
+
+.other-pseudoclasses input:disabled {
+    background-color: #eee;
+}
+
+.other-pseudoclasses .empty-div:empty {
+    width: 100px;
+    height: 20px;
+    background-color: yellow;
+}
+
+.other-pseudoclasses .child-demo p:first-child {
+    color: blue;
+}
+
+.other-pseudoclasses .child-demo p:last-child {
+    color: red;
+}
+
+.other-pseudoclasses input:required {
+    border-left: 3px solid red;
+}
+
+.other-pseudoclasses .range-demo:in-range {
+    background-color: lightgreen;
+}
+
+.other-pseudoclasses .range-demo:out-of-range {
+    background-color: pink;
+}
+
+.other-pseudoclasses input:read-only {
+    background-color: #f0f0f0;
+}
+
+.other-pseudoclasses input:read-write {
+    background-color: white;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab11</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Завдання 1: Елементи форми</h1>
+
+    <form id="myForm">
+        <fieldset>
+            <legend>1. Текстове поле</legend>
+            <input type="text" placeholder="Однорядкове поле">
+        </fieldset>
+
+        <fieldset>
+            <legend>2. Багаторядкове поле</legend>
+            <textarea rows="4" cols="50">Текст тут...</textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>3. Спеціальні поля</legend>
+            <input type="password" placeholder="Пароль">
+            <input type="email" placeholder="Email">
+            <input type="range" min="0" max="100">
+        </fieldset>
+
+        <fieldset>
+            <legend>4. Перемикачі</legend>
+            <input type="radio" id="radio1" name="radioGroup">
+            <label for="radio1">Варіант 1</label>
+            <input type="radio" id="radio2" name="radioGroup">
+            <label for="radio2">Варіант 2</label>
+            <input type="submit" value="Надіслати">
+        </fieldset>
+
+        <fieldset>
+            <legend>5. Активний перемикач</legend>
+            <input type="radio" id="radio3" name="radioGroup2" checked>
+            <label for="radio3">За замовчуванням</label>
+            <input type="radio" id="radio4" name="radioGroup2">
+            <label for="radio4">Інший варіант</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>6. Прапорці</legend>
+            <input type="checkbox" id="check1">
+            <label for="check1">Варіант A</label>
+            <input type="checkbox" id="check2">
+            <label for="check2">Варіант B</label>
+            <input type="checkbox" id="check3">
+            <label for="check3">Варіант C</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>7. Випадаючий список</legend>
+            <select>
+                <option>Варіант 1</option>
+                <option>Варіант 2</option>
+                <option>Варіант 3</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>8. Список множинного вибору</legend>
+            <select multiple size="3">
+                <option>Варіант 1</option>
+                <option>Варіант 2</option>
+                <option>Варіант 3</option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>9. Скидання форми</legend>
+            <input type="reset" value="Очистити форму">
+        </fieldset>
+
+        <fieldset>
+            <legend>10. Кнопка з обробником</legend>
+            <input type="button" value="Нажми" onclick="alert('Сповіщення')">
+        </fieldset>
+    </form>
+
+    <h1>Завдання 2: Псевдоелементи</h1>
+    <div class="pseudo-elements">
+        <p class="before-after">Текст з псевдоелементами</p>
+        <p class="first-letter">Перша літера</p>
+        <p class="first-line">Перший рядок цього тексту має інший стиль. Другий рядок цього тексту вже звичайний.</p>
+    </div>
+
+    <h1>Завдання 3: Псевдокласи посилань</h1>
+    <div class="link-pseudoclasses">
+        <a href="#unvisited">Невідвідане посилання</a>
+        <a href="#visited">Відвідане посилання</a>
+        <a href="#">Натисни мене</a>
+    </div>
+
+    <h1>Завдання 4: Інші псевдокласи</h1>
+    <div class="other-pseudoclasses">
+        <input type="checkbox" id="checked-demo" checked>
+        <label for="checked-demo">:checked</label>
+
+        <input type="text" disabled value=":disabled">
+
+        <div class="empty-div"></div>
+
+        <input type="text" enabled value=":enabled">
+
+        <div class="child-demo">
+            <p>:first-child</p>
+            <p>:last-child</p>
+        </div>
+
+        <input type="text" required placeholder=":required">
+
+        <input type="number" min="1" max="10" value="5" class="range-demo">
+
+        <input type="text" readonly value=":read-only">
+
+        <input type="text" value=":read-write">
+    </div>
+</body>
+</html>
