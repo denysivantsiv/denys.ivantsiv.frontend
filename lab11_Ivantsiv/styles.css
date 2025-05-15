@@ -15,12 +15,12 @@ input, select, textarea {
 }
 
 .pseudo-elements .before-after::before {
-    content: "Перед ";
+    content: "РџРµСЂРµРґ ";
     color: red;
 }
 
 .pseudo-elements .before-after::after {
-    content: " Після";
+    content: " РџС–СЃР»СЏ";
     color: blue;
 }
 
