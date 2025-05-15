@@ -1,101 +1,103 @@
 <!DOCTYPE html>
+<html lang="uk">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lab11</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Завдання 1: Елементи форми</h1>
+    <h1>Р—Р°РІРґР°РЅРЅСЏ 1: Р•Р»РµРјРµРЅС‚Рё С„РѕСЂРјРё</h1>
 
     <form id="myForm">
         <fieldset>
-            <legend>1. Текстове поле</legend>
-            <input type="text" placeholder="Однорядкове поле">
+            <legend>1. РўРµРєСЃС‚РѕРІРµ РїРѕР»Рµ</legend>
+            <input type="text" placeholder="РћРґРЅРѕСЂСЏРґРєРѕРІРµ РїРѕР»Рµ">
         </fieldset>
 
         <fieldset>
-            <legend>2. Багаторядкове поле</legend>
-            <textarea rows="4" cols="50">Текст тут...</textarea>
+            <legend>2. Р‘Р°РіР°С‚РѕСЂСЏРґРєРѕРІРµ РїРѕР»Рµ</legend>
+            <textarea rows="4" cols="50">РўРµРєСЃС‚ С‚СѓС‚...</textarea>
         </fieldset>
 
         <fieldset>
-            <legend>3. Спеціальні поля</legend>
-            <input type="password" placeholder="Пароль">
+            <legend>3. РЎРїРµС†С–Р°Р»СЊРЅС– РїРѕР»СЏ</legend>
+            <input type="password" placeholder="РџР°СЂРѕР»СЊ">
             <input type="email" placeholder="Email">
             <input type="range" min="0" max="100">
         </fieldset>
 
         <fieldset>
-            <legend>4. Перемикачі</legend>
+            <legend>4. РџРµСЂРµРјРёРєР°С‡С–</legend>
             <input type="radio" id="radio1" name="radioGroup">
-            <label for="radio1">Варіант 1</label>
+            <label for="radio1">Р’Р°СЂС–Р°РЅС‚ 1</label>
             <input type="radio" id="radio2" name="radioGroup">
-            <label for="radio2">Варіант 2</label>
-            <input type="submit" value="Надіслати">
+            <label for="radio2">Р’Р°СЂС–Р°РЅС‚ 2</label>
+            <input type="submit" value="РќР°РґС–СЃР»Р°С‚Рё">
         </fieldset>
 
         <fieldset>
-            <legend>5. Активний перемикач</legend>
+            <legend>5. РђРєС‚РёРІРЅРёР№ РїРµСЂРµРјРёРєР°С‡</legend>
             <input type="radio" id="radio3" name="radioGroup2" checked>
-            <label for="radio3">За замовчуванням</label>
+            <label for="radio3">Р—Р° Р·Р°РјРѕРІС‡СѓРІР°РЅРЅСЏРј</label>
             <input type="radio" id="radio4" name="radioGroup2">
-            <label for="radio4">Інший варіант</label>
+            <label for="radio4">Р†РЅС€РёР№ РІР°СЂС–Р°РЅС‚</label>
         </fieldset>
 
         <fieldset>
-            <legend>6. Прапорці</legend>
+            <legend>6. РџСЂР°РїРѕСЂС†С–</legend>
             <input type="checkbox" id="check1">
-            <label for="check1">Варіант A</label>
+            <label for="check1">Р’Р°СЂС–Р°РЅС‚ A</label>
             <input type="checkbox" id="check2">
-            <label for="check2">Варіант B</label>
+            <label for="check2">Р’Р°СЂС–Р°РЅС‚ B</label>
             <input type="checkbox" id="check3">
-            <label for="check3">Варіант C</label>
+            <label for="check3">Р’Р°СЂС–Р°РЅС‚ C</label>
         </fieldset>
 
         <fieldset>
-            <legend>7. Випадаючий список</legend>
+            <legend>7. Р’РёРїР°РґР°СЋС‡РёР№ СЃРїРёСЃРѕРє</legend>
             <select>
-                <option>Варіант 1</option>
-                <option>Варіант 2</option>
-                <option>Варіант 3</option>
+                <option>Р’Р°СЂС–Р°РЅС‚ 1</option>
+                <option>Р’Р°СЂС–Р°РЅС‚ 2</option>
+                <option>Р’Р°СЂС–Р°РЅС‚ 3</option>
             </select>
         </fieldset>
 
         <fieldset>
-            <legend>8. Список множинного вибору</legend>
+            <legend>8. РЎРїРёСЃРѕРє РјРЅРѕР¶РёРЅРЅРѕРіРѕ РІРёР±РѕСЂСѓ</legend>
             <select multiple size="3">
-                <option>Варіант 1</option>
-                <option>Варіант 2</option>
-                <option>Варіант 3</option>
+                <option>Р’Р°СЂС–Р°РЅС‚ 1</option>
+                <option>Р’Р°СЂС–Р°РЅС‚ 2</option>
+                <option>Р’Р°СЂС–Р°РЅС‚ 3</option>
             </select>
         </fieldset>
 
         <fieldset>
-            <legend>9. Скидання форми</legend>
-            <input type="reset" value="Очистити форму">
+            <legend>9. РЎРєРёРґР°РЅРЅСЏ С„РѕСЂРјРё</legend>
+            <input type="reset" value="РћС‡РёСЃС‚РёС‚Рё С„РѕСЂРјСѓ">
         </fieldset>
 
         <fieldset>
-            <legend>10. Кнопка з обробником</legend>
-            <input type="button" value="Нажми" onclick="alert('Сповіщення')">
+            <legend>10. РљРЅРѕРїРєР° Р· РѕР±СЂРѕР±РЅРёРєРѕРј</legend>
+            <input type="button" value="РќР°Р¶РјРё" onclick="alert('РЎРїРѕРІС–С‰РµРЅРЅСЏ')">
         </fieldset>
     </form>
 
-    <h1>Завдання 2: Псевдоелементи</h1>
+    <h1>Р—Р°РІРґР°РЅРЅСЏ 2: РџСЃРµРІРґРѕРµР»РµРјРµРЅС‚Рё</h1>
     <div class="pseudo-elements">
-        <p class="before-after">Текст з псевдоелементами</p>
-        <p class="first-letter">Перша літера</p>
-        <p class="first-line">Перший рядок цього тексту має інший стиль. Другий рядок цього тексту вже звичайний.</p>
+        <p class="before-after">РўРµРєСЃС‚ Р· РїСЃРµРІРґРѕРµР»РµРјРµРЅС‚Р°РјРё</p>
+        <p class="first-letter">РџРµСЂС€Р° Р»С–С‚РµСЂР°</p>
+        <p class="first-line">РџРµСЂС€РёР№ СЂСЏРґРѕРє С†СЊРѕРіРѕ С‚РµРєСЃС‚Сѓ РјР°С” С–РЅС€РёР№ СЃС‚РёР»СЊ. Р”СЂСѓРіРёР№ СЂСЏРґРѕРє С†СЊРѕРіРѕ С‚РµРєСЃС‚Сѓ РІР¶Рµ Р·РІРёС‡Р°Р№РЅРёР№.</p>
     </div>
 
-    <h1>Завдання 3: Псевдокласи посилань</h1>
+    <h1>Р—Р°РІРґР°РЅРЅСЏ 3: РџСЃРµРІРґРѕРєР»Р°СЃРё РїРѕСЃРёР»Р°РЅСЊ</h1>
     <div class="link-pseudoclasses">
-        <a href="#unvisited">Невідвідане посилання</a>
-        <a href="#visited">Відвідане посилання</a>
-        <a href="#">Натисни мене</a>
+        <a href="#unvisited">РќРµРІС–РґРІС–РґР°РЅРµ РїРѕСЃРёР»Р°РЅРЅСЏ</a>
+        <a href="#visited">Р’С–РґРІС–РґР°РЅРµ РїРѕСЃРёР»Р°РЅРЅСЏ</a>
+        <a href="#">РќР°С‚РёСЃРЅРё РјРµРЅРµ</a>
     </div>
 
-    <h1>Завдання 4: Інші псевдокласи</h1>
+    <h1>Р—Р°РІРґР°РЅРЅСЏ 4: Р†РЅС€С– РїСЃРµРІРґРѕРєР»Р°СЃРё</h1>
     <div class="other-pseudoclasses">
         <input type="checkbox" id="checked-demo" checked>
         <label for="checked-demo">:checked</label>
