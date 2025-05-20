@@ -229,7 +229,7 @@ textarea {
       grid-template-columns: [full-start center-start] repeat(12, [col-start] 1fr [col-end]) [center-end full-end]; } }
 
 .header {
-    background-image: url("../images/img-banner.jpg");
+    background-image: url("images/img-banner.jpg");
     padding: 3rem 2rem 6rem;    
     display: -ms-grid;
     display: grid;
@@ -363,7 +363,7 @@ textarea {
   font-size: 1.3rem; }
 
 .footer {
-  background-image: url("../images/bg-footer.jpg");
+  background-image: url("images/bg-footer.jpg");
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: calc((300/1600)*100%) [center-start] 1fr [center-end] calc((300/1600)*100%);
@@ -547,7 +547,7 @@ textarea {
     -ms-flex-pack: center;
     justify-content: center;
     justify-items: center;
-    background-image: url("../images/img-video.jpg"); }
+    background-image: url("images/img-video.jpg"); }
     .story-video-heading {
       font-weight: 700;
       font-size: 1.6rem;
@@ -618,7 +618,7 @@ textarea {
 
 .team {
     padding: 5rem 2rem;
-    background-image: url("../images/bg-team.jpg");
+    background-image: url("images/bg-team.jpg");
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: calc((300/1600)*100%) [center-start] 1fr [center-end] calc((300/1600)*100%);
@@ -729,7 +729,7 @@ textarea {
     grid-column: 1 / -1; }
 
 .testimonial {
-  background-image: url("../images/bg-quote.jpg");
+  background-image: url("images/bg-quote.jpg");
   display: -ms-grid;
   display: grid;
   justify-items: center;
